@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testNG.SwagLogin">
+        <methods>
+          <include name="SetUpBrowser"/>
+          <include name="LogOutAction"/>
+          <include name="LaunchURL"/>
+          <include name="Othervaliddata"/>
+          <include name="tearDown"/>
+          <include name="BackActions"/>
+          <include name="EnterDetails"/>
+          <include name="ProductClick"/>
+        </methods>
+      </class> <!-- testNG.SwagLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
